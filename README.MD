@@ -3,7 +3,7 @@
 > Este projeto não está utilizando o comando `create-react-app`
 
 ### Como rodar o projeto :round_pushpin:
-1. Certifique-se que possui o node devidamente instalado em sua máquina
+1. Certifique-se que possui o node devidamente instalado em sua máquina. heheheh :trollface:
 2. Clone o projeto
 3. execute o comando abaixo na pasta do projeto
 
