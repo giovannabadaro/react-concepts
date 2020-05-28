@@ -9,18 +9,19 @@
 
       `$ yarn install `
 
+### Vamos aos conceitos :dart:
 
 BABEL: transpilador de código JS, ou seja, ele vai converter todo o código react em um código que o navegador entenda
 
 WEBPACK:  Como tem como carregar arquivos do tipo .js .png .css dentro do JS, o babel não consegue converter isso, então fica para o papel do webpack converter cada tipo de uma maneira diferente. Por isso dentro do conceito de webpack, existe um conceito chamado de loaders: 
 
-Os** loaders estão dentro do webpack,** temos então: 
+Os**loaders estão dentro do webpack,** temos então: 
 
 - babel-loader
 - css-loader
 - image-loader
 
-**PROPRIEDADES: **
+**PROPRIEDADES:**
 
 Children —> o conceito de children é quando eu quero acessar conteúdo HTML adicionado dentro do componente 
 
@@ -39,15 +40,13 @@ function Component ({ children }){
 
 ```jsx
 //JSX
-.
-.
+
 <Header> 
 	<h1> Esse conteúdo </h1>
 	<h2> Pode ser acessado através </h2>
 	<h3> da propriedade children, vista acima </h3>
 </Header>
-.
-.
+
 ```
 
 **ESTADOS:**
@@ -76,7 +75,7 @@ A função useState vai retornar um array com duas posições
 1. Um array contendo o estado inicial, ou seja, o que por exemplo já esta escrito naquele array naquele momento —> state
 2. Outro array contendo uma função para adicionarmos outro estado —> setState
 
-**UseEffect: **
+**UseEffect:**
 
 Ele recebe dois parâmetros
 
